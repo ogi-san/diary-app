@@ -34,7 +34,7 @@ DB_PASSWORD=password
 docker run --rm -u "$(id -u):$(id -g)" -v $(pwd):/var/www/html -w /var/www/html laravelsail/php83-composer:latest composer install --ignore-platform-reqs
 ```
 6. Laravel Sailの起動
-    ```bash
+```bash
 sail up -d
 ```
 7. アプリケーションキーの生成
